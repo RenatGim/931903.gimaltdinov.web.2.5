@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+nav a {
+    color: gray;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header {
+    background-color: black;
+    color: gray;
+}
+
+    header h2 {
+        display: inline-block;
+        margin-right: 30px;
+    }
+
+header, main {
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+h1, h2 {
+    font-weight: lighter;
+}
+
+p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+footer {
+    border-top: 1px solid lightgray;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+li {
+    margin: 5px;
+}
+
+input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+    background-color:white;
+    display:block;
+}
+
+h4{
+    margin:0;
+}
+
+.blue {
+    background-color: Highlight;
+    color: white;
+}
+
+.result{
+    margin-left:25%;
+    display:flex;
+}
+
+.resultString{
+    margin-left:30px;
+}
+
+dl {
+}
+
+dt {
+    font-weight: bold;
+    float: left;
+    clear: both;
+    margin-right: 10px;
+    width: 150px;
+    margin-left:100px;
+}
+
+dd {
+}

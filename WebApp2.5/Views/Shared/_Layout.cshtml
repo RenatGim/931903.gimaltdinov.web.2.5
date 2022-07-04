@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <h2>Backend5</h2>
+        <nav><a asp-controller="Home" asp-action="Index">Home</a></nav>
+        <nav><a asp-controller="Patients" asp-action="Index">Patients</a></nav>
+        <nav><a asp-controller="Labs" asp-action="Index">Labs</a></nav>
+        <nav><a asp-controller="Hospitals" asp-action="Index">Hospitals</a></nav>
+        <nav><a asp-controller="Doctors" asp-action="Index">Doctors</a></nav>
+    </header>
+
+    <main>
+        @RenderBody()
+    </main>
+
+    <footer>
+            &copy; 2022 - Backend4
+    </footer>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
